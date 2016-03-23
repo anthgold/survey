@@ -1,5 +1,13 @@
 .jumbotron {
-    padding: 30px;
+  padding: 30px;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+#flavor {
+  margin-top: 30px;
 }
 
 #confirmation {
