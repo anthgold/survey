@@ -2,45 +2,86 @@
 <html>
   <head>
     <script src="js/jquery-1.12.2.js"></script>
-    <script src="js/appointments-scripts.js"></script>
+    <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/appointments-style.css" rel="stylesheet" type="text/css">
-    <title>Book an Appointment</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Survey</title>
   </head>
   <body>
-    <body>
-        <div class="jumbotron">
-          <h1>Book an Appointment!</h1>
-          <form id="info">
-            <h2>Please let us know your name and when you would like your appointment:</h2>
-            <div class="form-group">
-              <label for="name">Name (first &amp; last):</label>
-              <input id="name" type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="date">Date:</label>
-              <input id="date" type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="start">Start Time:</label>
-              <input id="start" type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="end">End Time:</label>
-              <input id="end" type="text" class="form-control">
-            </div>
-            <button type="submit" class="btn">Book it!</button>
-          </form>
+    <!-- coffee drop-down -->
+    <!-- <select class="form-control" id="beverage">
+      <option>Coffee</option>
+      <option>Tea</option>
+      <option>Kombucha</option>
+      <option>Water</option>
+    </select> -->
 
-          <div class="container">
-            <div id="confirmation">
-              <p>Your booking was successful!</p>
-              <p>Here is the appointment confirmation for <span class="name"></span>:</p>
-              <p>Date: <span class="date"></span>
-              <br>Start Time: <span class="start"></span>
-              <br>End Time: <span class="end"></span></p>
-            </div>
-          </div>
+    <!-- Radio buttons -->
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor" value="chocolate" checked>
+        Chocolate
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor" value="vanilla">
+        Vanilla
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor" value="cookiesandcream">
+        Cookies & Cream
+      </label>
+    </div>
+
+  <!-- Checkboxes -->
+    <!-- Date picker -->
+    <div class="form-group">
+      <label for="born">Date of birth:</label>
+      <input id="born" class="form-control" type="date">
+    </div>
+
+    <!-- Color check-box -->
+    <div class="form-group">
+      <label for="color">What is your favorite color?</label>
+      <input id="color" class="form-control" type="color">
+    </div>
+
+  <!-- Appointments code -->
+    <!-- <div class="jumbotron">
+      <h1>Book an Appointment!</h1>
+      <form id="info">
+        <h2>Please let us know your name and when you would like your appointment:</h2>
+        <div class="form-group">
+          <label for="name">Name (first &amp; last):</label>
+          <input id="name" type="text" class="form-control">
         </div>
-      </body>
-    </html>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input id="date" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="start">Start Time:</label>
+          <input id="start" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="end">End Time:</label>
+          <input id="end" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn">Book it!</button>
+      </form>
+
+      <div class="container">
+        <div id="confirmation">
+          <p>Your booking was successful!</p>
+          <p>Here is the appointment confirmation for <span class="name"></span>:</p>
+          <p>Date: <span class="date"></span>
+          <br>Start Time: <span class="start"></span>
+          <br>End Time: <span class="end"></span></p>
+        </div>
+      </div>
+    </div> -->
+  </body>
+</html>
