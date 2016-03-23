@@ -1,0 +1,8 @@
+.jumbotron {
+    padding: 30px;
+}
+
+#confirmation {
+  display: none;
+  padding-top: 30px;
+}
