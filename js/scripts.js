@@ -1,18 +1,18 @@
 $(document).ready(function() {
-  $(".jumbotron form").submit(function(event) {
-
+  $("#blanks form").submit(function(event) {
     // Coffee drop-down
     var beverage = $("#beverage").val();
 
+
     // Radio buttons
     var flavor = $("input:radio[name=flavor]:checked").val();
-
+    alert (flavor);
     // Date picker
     var dob = $("#born").val();
-
+    alert (dob);
     // Color check-box
     var favoriteColor = $("#color").val();
-
+    alert (favoriteColor);
 
   // Appointments .js
     // var nameInput = $("input#name").val();

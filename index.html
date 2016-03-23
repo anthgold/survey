@@ -8,6 +8,8 @@
     <title>Survey</title>
   </head>
   <body>
+
+
     <!-- coffee drop-down -->
     <!-- <select class="form-control" id="beverage">
       <option>Coffee</option>
@@ -17,22 +19,24 @@
     </select> -->
 
     <!-- Radio buttons -->
+    <div id="blanks">
+    <form>
     <div class="radio">
       <label>
-        <input type="radio" name="flavor" value="chocolate" checked>
+        <input name="flavor" value="chocolate" checked type="radio">
         Chocolate
       </label>
     </div>
     <div class="radio">
       <label>
-        <input type="radio" name="flavor" value="vanilla">
+        <input name="flavor" value="vanilla" type="radio">
         Vanilla
       </label>
     </div>
     <div class="radio">
       <label>
-        <input type="radio" name="flavor" value="cookiesandcream">
-        Cookies & Cream
+        <input name="flavor" value="cookiesandcream" type="radio">
+        Cookies &amp; Cream
       </label>
     </div>
 
@@ -48,6 +52,8 @@
       <label for="color">What is your favorite color?</label>
       <input id="color" class="form-control" type="color">
     </div>
+
+    <button type="submit" class="btn">Submit</button>
 
   <!-- Appointments code -->
     <!-- <div class="jumbotron">
@@ -70,10 +76,10 @@
           <label for="end">End Time:</label>
           <input id="end" type="text" class="form-control">
         </div>
-        <button type="submit" class="btn">Book it!</button>
+        <button type="submit" class="btn">Book it!</button> -->
       </form>
 
-      <div class="container">
+      <!-- <div class="container">
         <div id="confirmation">
           <p>Your booking was successful!</p>
           <p>Here is the appointment confirmation for <span class="name"></span>:</p>
@@ -83,5 +89,6 @@
         </div>
       </div>
     </div> -->
+</div>
   </body>
 </html>
